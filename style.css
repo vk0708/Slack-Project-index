@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(119, 207, 207); */
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    position: fixed;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-part1,h3{
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: 550;
+    color: rgb(54, 54, 54);
+}
+#nav-part1,img{
+    margin-right: 20px;
+    padding: 4px 9px;
+}
+#nav-part1,i{
+    font-size: 25px;
+}
+
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    margin-right: 30px;
+}
+
+#nav-part2>i{
+    font-size: 22px;
+    padding-top: 8px;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+#nav-part2>h3{
+    text-transform:capitalize;
+    padding-top: 8px;
+}
+
+#nav-part2,button{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 450;
+    padding: 10px 17px;
+    margin-left: 1.25rem;
+}
+
+.btn-border{
+    background-color: white;
+    color: #611F69;
+    border: 1px solid #611F69;
+    border-radius: 4px;
+}
+
+.btn-bg{
+    background-color: #611F69;
+    color: white;
+    border: 1px solid #611F69;
+    border-radius: 4px;
+}
+
+.btn-border:hover{
+    cursor: pointer;
+    border: 2px solid #611F69;    
+}
+
+.btn-bg:hover{
+    cursor: pointer;
+    background-color:#411346;    
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+h3:hover{
+    cursor: pointer;
+}
+
+#contain{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 550;
+}
+
+.work{
+    color: #9703C9;
+}
+
+.btn-h1{
+    background-color: #611F69;
+    color: white;
+    border: 1px solid #611F69;
+    border-radius: 4px;
+    padding: 15px 40px;
+}.btn-h1:hover{
+    cursor: pointer;
+    background-color:#411346;    
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.bld{
+    font-weight: 600;
+}
+
+#partner{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 180px;
+}
+
+#img1{
+    width: 130px;
+    height: 50px;
+    background-image: url("https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-airbnb-small.png");
+    
+  background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img4{
+    width: 130px;
+    height: 50px;
+    background-image: url("https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-target-small.png");
+    
+  background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img2{
+    width: 130px;
+    height: 50px;
+    background-image: url("https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-nasa-small.png");
+    
+  background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img3{
+    width: 130px;
+    height: 50px;
+    background-image: url("https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-uber-small.png");
+    
+  background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img5{
+    width: 180px;
+    height: 50px;
+    background-image: url("https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-nyt-small.png");
+    
+  background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img6{
+    width: 130px;
+    height: 50px;
+    background-image: url("https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-etsy-small.png");
+    
+  background-repeat: no-repeat;
+    background-position: center;
+}
+
+h5{
+    padding-top: 30%;
+    font-size: 50px;
+    margin: 0px 50px;
+}
